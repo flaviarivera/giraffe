@@ -10,7 +10,7 @@ app = dash.Dash()
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1('Plotly Dash - the best way to visualize your data!'),
+    html.H1('Wild'),
     dcc.Graph(
         id='this_is_an_id',
         figure={
