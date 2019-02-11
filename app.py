@@ -15,8 +15,8 @@ app.layout = html.Div(children=[
         id='this_is_an_id',
         figure={
             'data': [
-                {'x': ['Africa', 'Asia', 'World'], 'y': [10, 4, 7], 'type': 'bar', 'name': 'Animals'},
-                {'x': ['Africa', 'Asia', 'Wrold'], 'y': [5, 0, 8], 'type': 'bar', 'name': 'Natural'},
+                {'x': ['Africa', 'Asia', 'World'], 'y': [10, 8, 17], 'type': 'bar', 'name': 'Animals'},
+                {'x': ['Africa', 'Asia', 'Wrold'], 'y': [5, 9, 8], 'type': 'bar', 'name': 'Natural'},
             ],
             'layout': {
                 'title': "Endangered Animals",
