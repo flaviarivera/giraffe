@@ -15,11 +15,11 @@ app.layout = html.Div(children=[
         id='this_is_an_id',
         figure={
             'data': [
-                {'x': ['Dash', 'Powerpoint', 'Lascaux cave paintings'], 'y': [8, 2, 3], 'type': 'bar', 'name': 'Intelligence'},
-                {'x': ['Dash', 'Powerpoint', 'Lascaux cave paintings'], 'y': [7, 1, 5], 'type': 'bar', 'name': 'Beauty'},
+                {'x': ['Africa', 'Asia', 'World'], 'y': [10, 4, 7], 'type': 'bar', 'name': 'Animals'},
+                {'x': ['Africa', 'Asia', 'Wrold'], 'y': [5, 0, 8], 'type': 'bar', 'name': 'Natural'},
             ],
             'layout': {
-                'title': "Because friends don't let friends use Microsoft Powerpoint",
+                'title': "Endangered Animals",
                 'xaxis':{'title':'Choice of data visualization'},
                 'yaxis':{'title':'Approval rating by average data scientist'},
             }
